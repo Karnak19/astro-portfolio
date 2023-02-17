@@ -2,8 +2,8 @@
 	import Icon from './Icon.svelte';
 </script>
 
-<div class="grid place-items-center text-slate-900">
-	<main class="bg-white/60 backdrop-blur-xl p-10 grid gap-2 rounded-md border-2 border-white/20">
+<div class="grid place-items-center text-white">
+	<main class="bg-white/20 backdrop-blur-xl p-10 grid gap-2 rounded-md border-2 border-white/20">
 		<div class="grid place-items-center">
 			<img
 				class="rounded-full h-32 w-32 bg-slate-900 text-white text-center"
@@ -13,7 +13,7 @@
 		<div id="name" class="grid place-items-center text-3xl font-prompt">
 			<h1>Basile Vernouillet</h1>
 		</div>
-		<div id="job" class="grid place-items-center text-lg text-slate-900/50 pb-2">
+		<div id="job" class="grid place-items-center text-lg text-white/80 pb-2">
 			<h2>Frontend & Backend Developer</h2>
 		</div>
 		<div id="socials" class="grid place-items-center border-t-2 border-white pt-4">

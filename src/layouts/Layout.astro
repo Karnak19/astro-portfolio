@@ -1,4 +1,5 @@
 ---
+import Blur from "../components/react/Blur";
 ---
 
 <!DOCTYPE html>
@@ -46,10 +47,11 @@
       rel="stylesheet"
     />
   </head>
-  <body
-    class="min-h-screen bg-gradient-to-br from-teal-400 to-indigo-600 font-open"
-  >
-    <main class="flex flex-col justify-center container mx-auto gap-20 py-20">
+  <body class="min-h-screen bg-slate-800 font-open overflow-x-hidden">
+    <Blur client:idle />
+    <main
+      class="relative z-10 flex flex-col justify-center container mx-auto gap-20 py-20"
+    >
       <slot />
     </main>
   </body>

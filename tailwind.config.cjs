@@ -26,6 +26,16 @@ module.exports = {
         graphql: "#E10098",
         prisma: "#2D3748",
       },
+      animation: {
+        "spin-slow": "spin-slow 15s linear infinite",
+      },
+      keyframes: {
+        "spin-slow": {
+          "0%": { transform: "rotate(0deg)" },
+          "50%": { scale: "1 1.8" },
+          "100%": { transform: "rotate(360deg)" },
+        },
+      },
     },
   },
   plugins: [],

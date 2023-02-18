@@ -9,6 +9,7 @@ module.exports = {
     "lg:group-hover:text-black",
     "lg:group-hover:text-prisma",
     "lg:group-hover:text-graphql",
+    "lg:group-hover:text-sky-400",
     "lg:group-hover:bg-typescript",
     "lg:group-hover:bg-white",
     "lg:group-hover:bg-black",

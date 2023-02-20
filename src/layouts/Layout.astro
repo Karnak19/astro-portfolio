@@ -1,5 +1,5 @@
 ---
-import Blur from "../components/react/Blur";
+import Blob from "../components/svelte/Blob.svelte";
 ---
 
 <!DOCTYPE html>
@@ -47,10 +47,10 @@ import Blur from "../components/react/Blur";
       rel="stylesheet"
     />
   </head>
-  <body class="min-h-screen bg-slate-900 font-open overflow-x-hidden">
-    <Blur client:idle />
+  <body class="min-h-screen overflow-x-hidden bg-slate-900 font-open">
+    <Blob client:idle />
     <main
-      class="relative z-10 flex flex-col  justify-center container mx-auto gap-20 py-20"
+      class="container relative z-10 mx-auto flex flex-col justify-center gap-20 py-20"
     >
       <slot />
     </main>

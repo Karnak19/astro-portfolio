@@ -26,9 +26,9 @@ function Blur() {
         style={{
           translate: "-50% -50%",
         }}
-        className="absolute h-[34vmax] top-1/2 left-1/2 opacity-80 bg-gradient-to-r from-teal-600 to-purple-600 aspect-square animate-spin-slow duration-[10000ms] rounded-full"
+        className="absolute top-1/2 left-1/2 aspect-square h-[34vmax] animate-spin-slow rounded-full bg-gradient-to-r from-teal-600 to-purple-600 opacity-80 duration-[10000ms]"
       />
-      <div className="h-full w-full z-[2] backdrop-blur-3xl fixed" />
+      <div className="fixed z-[2] h-full w-full backdrop-blur-3xl" />
     </>
   );
 }
